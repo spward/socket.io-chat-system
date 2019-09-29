@@ -13,7 +13,7 @@ npm start
 
 ## Usage example
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+This can be used as a form of chatting with others. It is currently very basic but will be adding features like Private DM's, Login System, and private channels.
 
 ## Release History
 
