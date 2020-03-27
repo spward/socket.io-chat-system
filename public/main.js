@@ -24,7 +24,7 @@ $(function() {
 
   var $loginPage = $(".login.page"); // The login page
   var $chatPage = $(".chat.page"); // The chatroom page
-
+  var $pages = $(".pages");
   // Prompt for setting a username
   var username;
   var connected = false;
@@ -33,6 +33,11 @@ $(function() {
   var $currentInput = $usernameInput.focus();
 
   var socket = io();
+
+  // Toggles Dark mode
+  $(".dark--mode").click(function() {
+    $pages.toggleClass("dark--mode-on");
+  });
 
   // Sets the client's username
   const setUsername = () => {
